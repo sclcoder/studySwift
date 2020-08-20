@@ -1,0 +1,493 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2A9E991A24EB7D1F00FE1C03 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A9E991924EB7D1F00FE1C03 /* TabBar.swift */; };
+		2A9E991D24EBB35900FE1C03 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A9E991C24EBB35900FE1C03 /* API.swift */; };
+		2A9E992124EBD22100FE1C03 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A9E991E24EBD22100FE1C03 /* Item.swift */; };
+		2A9E992224EBD22100FE1C03 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A9E991F24EBD22100FE1C03 /* User.swift */; };
+		2A9E992324EBD22100FE1C03 /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A9E992024EBD22100FE1C03 /* Comment.swift */; };
+		2A9FC7CD24EB6C48005370AE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A9FC7CC24EB6C48005370AE /* AppDelegate.swift */; };
+		2A9FC7CF24EB6C48005370AE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A9FC7CE24EB6C48005370AE /* SceneDelegate.swift */; };
+		2A9FC7D424EB6C48005370AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A9FC7D224EB6C48005370AE /* Main.storyboard */; };
+		2A9FC7D624EB6C4A005370AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A9FC7D524EB6C4A005370AE /* Assets.xcassets */; };
+		2A9FC7D924EB6C4A005370AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A9FC7D724EB6C4A005370AE /* LaunchScreen.storyboard */; };
+		2A9FC7E124EB6E43005370AE /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A9FC7E024EB6E43005370AE /* TabBarController.swift */; };
+		2A9FC7E924EB7132005370AE /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A9FC7E824EB7132005370AE /* HomeViewController.swift */; };
+		2A9FC7EB24EB713F005370AE /* LiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A9FC7EA24EB713F005370AE /* LiveViewController.swift */; };
+		2A9FC7ED24EB7144005370AE /* TrendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A9FC7EC24EB7144005370AE /* TrendViewController.swift */; };
+		528B572B20B7146C75CB5740 /* Pods_Qushibake.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8A79B93174C0ABC72DCA19B /* Pods_Qushibake.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2A9E991924EB7D1F00FE1C03 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+		2A9E991C24EBB35900FE1C03 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		2A9E991E24EBD22100FE1C03 /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		2A9E991F24EBD22100FE1C03 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		2A9E992024EBD22100FE1C03 /* Comment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Comment.swift; sourceTree = "<group>"; };
+		2A9FC7C924EB6C48005370AE /* Qushibake.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Qushibake.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A9FC7CC24EB6C48005370AE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2A9FC7CE24EB6C48005370AE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2A9FC7D324EB6C48005370AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2A9FC7D524EB6C4A005370AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2A9FC7D824EB6C4A005370AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2A9FC7DA24EB6C4A005370AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A9FC7E024EB6E43005370AE /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		2A9FC7E824EB7132005370AE /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		2A9FC7EA24EB713F005370AE /* LiveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveViewController.swift; sourceTree = "<group>"; };
+		2A9FC7EC24EB7144005370AE /* TrendViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendViewController.swift; sourceTree = "<group>"; };
+		A8A79B93174C0ABC72DCA19B /* Pods_Qushibake.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Qushibake.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2656CEF4740BF2592F914EB /* Pods-Qushibake.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Qushibake.debug.xcconfig"; path = "Target Support Files/Pods-Qushibake/Pods-Qushibake.debug.xcconfig"; sourceTree = "<group>"; };
+		DC78B32BC368D34F8CE90C4F /* Pods-Qushibake.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Qushibake.release.xcconfig"; path = "Target Support Files/Pods-Qushibake/Pods-Qushibake.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2A9FC7C624EB6C48005370AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				528B572B20B7146C75CB5740 /* Pods_Qushibake.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		162FC0574109465892CFF6FD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B2656CEF4740BF2592F914EB /* Pods-Qushibake.debug.xcconfig */,
+				DC78B32BC368D34F8CE90C4F /* Pods-Qushibake.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		2A9E991B24EBB2F400FE1C03 /* API */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		2A9FC7C024EB6C48005370AE = {
+			isa = PBXGroup;
+			children = (
+				2A9FC7CB24EB6C48005370AE /* Qushibake */,
+				2A9FC7CA24EB6C48005370AE /* Products */,
+				162FC0574109465892CFF6FD /* Pods */,
+				B35E76B1ED1303771CE004C5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2A9FC7CA24EB6C48005370AE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2A9FC7C924EB6C48005370AE /* Qushibake.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2A9FC7CB24EB6C48005370AE /* Qushibake */ = {
+			isa = PBXGroup;
+			children = (
+				2A9E991B24EBB2F400FE1C03 /* API */,
+				2A9FC7E724EB710D005370AE /* Trend */,
+				2A9FC7E624EB7104005370AE /* Live */,
+				2A9FC7E524EB70F8005370AE /* Home */,
+				2A9FC7E424EB70EC005370AE /* Main */,
+				2A9FC7E324EB6E79005370AE /* Resources */,
+			);
+			path = Qushibake;
+			sourceTree = "<group>";
+		};
+		2A9FC7E324EB6E79005370AE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2A9FC7D224EB6C48005370AE /* Main.storyboard */,
+				2A9FC7D524EB6C4A005370AE /* Assets.xcassets */,
+				2A9FC7D724EB6C4A005370AE /* LaunchScreen.storyboard */,
+				2A9FC7DA24EB6C4A005370AE /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		2A9FC7E424EB70EC005370AE /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				2A9FC7CC24EB6C48005370AE /* AppDelegate.swift */,
+				2A9FC7CE24EB6C48005370AE /* SceneDelegate.swift */,
+				2A9FC7E024EB6E43005370AE /* TabBarController.swift */,
+				2A9E991924EB7D1F00FE1C03 /* TabBar.swift */,
+				2A9E991C24EBB35900FE1C03 /* API.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		2A9FC7E524EB70F8005370AE /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				2A9E992024EBD22100FE1C03 /* Comment.swift */,
+				2A9E991E24EBD22100FE1C03 /* Item.swift */,
+				2A9E991F24EBD22100FE1C03 /* User.swift */,
+				2A9FC7E824EB7132005370AE /* HomeViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		2A9FC7E624EB7104005370AE /* Live */ = {
+			isa = PBXGroup;
+			children = (
+				2A9FC7EA24EB713F005370AE /* LiveViewController.swift */,
+			);
+			path = Live;
+			sourceTree = "<group>";
+		};
+		2A9FC7E724EB710D005370AE /* Trend */ = {
+			isa = PBXGroup;
+			children = (
+				2A9FC7EC24EB7144005370AE /* TrendViewController.swift */,
+			);
+			path = Trend;
+			sourceTree = "<group>";
+		};
+		B35E76B1ED1303771CE004C5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A8A79B93174C0ABC72DCA19B /* Pods_Qushibake.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2A9FC7C824EB6C48005370AE /* Qushibake */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A9FC7DD24EB6C4A005370AE /* Build configuration list for PBXNativeTarget "Qushibake" */;
+			buildPhases = (
+				AC98ABFCD4ACD38E85CEB547 /* [CP] Check Pods Manifest.lock */,
+				2A9FC7C524EB6C48005370AE /* Sources */,
+				2A9FC7C624EB6C48005370AE /* Frameworks */,
+				2A9FC7C724EB6C48005370AE /* Resources */,
+				F0CF6CC1E84A51CD15408366 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Qushibake;
+			productName = Qushibake;
+			productReference = 2A9FC7C924EB6C48005370AE /* Qushibake.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2A9FC7C124EB6C48005370AE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = coder;
+				TargetAttributes = {
+					2A9FC7C824EB6C48005370AE = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = 2A9FC7C424EB6C48005370AE /* Build configuration list for PBXProject "Qushibake" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2A9FC7C024EB6C48005370AE;
+			productRefGroup = 2A9FC7CA24EB6C48005370AE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2A9FC7C824EB6C48005370AE /* Qushibake */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2A9FC7C724EB6C48005370AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A9FC7D924EB6C4A005370AE /* LaunchScreen.storyboard in Resources */,
+				2A9FC7D624EB6C4A005370AE /* Assets.xcassets in Resources */,
+				2A9FC7D424EB6C48005370AE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AC98ABFCD4ACD38E85CEB547 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Qushibake-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F0CF6CC1E84A51CD15408366 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Qushibake/Pods-Qushibake-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Qushibake/Pods-Qushibake-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Qushibake/Pods-Qushibake-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2A9FC7C524EB6C48005370AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A9FC7E124EB6E43005370AE /* TabBarController.swift in Sources */,
+				2A9E992124EBD22100FE1C03 /* Item.swift in Sources */,
+				2A9FC7CD24EB6C48005370AE /* AppDelegate.swift in Sources */,
+				2A9FC7CF24EB6C48005370AE /* SceneDelegate.swift in Sources */,
+				2A9FC7E924EB7132005370AE /* HomeViewController.swift in Sources */,
+				2A9FC7ED24EB7144005370AE /* TrendViewController.swift in Sources */,
+				2A9FC7EB24EB713F005370AE /* LiveViewController.swift in Sources */,
+				2A9E991D24EBB35900FE1C03 /* API.swift in Sources */,
+				2A9E992224EBD22100FE1C03 /* User.swift in Sources */,
+				2A9E992324EBD22100FE1C03 /* Comment.swift in Sources */,
+				2A9E991A24EB7D1F00FE1C03 /* TabBar.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2A9FC7D224EB6C48005370AE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A9FC7D324EB6C48005370AE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2A9FC7D724EB6C4A005370AE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A9FC7D824EB6C4A005370AE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2A9FC7DB24EB6C4A005370AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2A9FC7DC24EB6C4A005370AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2A9FC7DE24EB6C4A005370AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2656CEF4740BF2592F914EB /* Pods-Qushibake.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MYDTTEQ9YB;
+				INFOPLIST_FILE = Qushibake/Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sclcoder.Qushibake;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2A9FC7DF24EB6C4A005370AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC78B32BC368D34F8CE90C4F /* Pods-Qushibake.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MYDTTEQ9YB;
+				INFOPLIST_FILE = Qushibake/Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sclcoder.Qushibake;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2A9FC7C424EB6C48005370AE /* Build configuration list for PBXProject "Qushibake" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A9FC7DB24EB6C4A005370AE /* Debug */,
+				2A9FC7DC24EB6C4A005370AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A9FC7DD24EB6C4A005370AE /* Build configuration list for PBXNativeTarget "Qushibake" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A9FC7DE24EB6C4A005370AE /* Debug */,
+				2A9FC7DF24EB6C4A005370AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2A9FC7C124EB6C48005370AE /* Project object */;
+}
